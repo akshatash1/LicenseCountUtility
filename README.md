@@ -41,17 +41,6 @@ Follow these steps to get the project up and running:
 8. **File Format**: The utility only supports CSV format. If the file is not in CSV format, please restart the application with a valid input.
 9. **Post Execution**: After execution, press any key to close the screen.
 
-## Contributing
-
-Contributions are welcome! Please read the contributing guidelines before getting started.
-
-## License
-
-This project is licensed under the terms of the MIT license. See the LICENSE file for details.
-
-
-
-
 Particular considerations taken into account in this project include:
 -------------------------------------------------------------------------
 1. Input file is a valid csv file with header as ComputerID,UserID,ApplicationID,ComputerType,Comment.
