@@ -11,7 +11,7 @@ If the file name is null, an exception will be thrown.
 For example: AppLicenseCalculator.exe "C:\Users\akshatash\source\repos\AppCopyCalculator\AppCopyCalculator\Files\InputFiles\test2.csv"
 
 
-Assumptions made in this project are:
+Special Considerations made in this project are:
 --------------------------------------
 1. Input file is a valid csv file with header as ComputerID,UserID,ApplicationID,ComputerType,Comment.
 2. There should be no spaces before or after the values in the CSV file.
@@ -20,6 +20,7 @@ Assumptions made in this project are:
 5. Utility has hardcoded value for application ID in Configuration file as 374.
 
 Logic Used:
+--------------------------
 1. If a user has installed apps only on a desktop, the count is incremented based on number of desktops.
 2. If a user has installed apps only on a laptop, the count is incremented based on number of laptops.
 3. If a user has installed apps on multiple desktops and laptops, the count is incremented based on the fact that a user can use one license on one desktop and one laptop.
