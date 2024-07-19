@@ -3,13 +3,13 @@
 The project has been built using .NET 6.0.
 
 To run the application, navigate to the Executable folder and locate the executable file named AppLicenseCalculator.exe.
-Execution: Run this file by supplying the path of the input file as the first argument.
-AppLicenseCalculator.exe "input file path"
 
-No Argument: If no argument is given, the console will prompt you to input the file path.
-Null Filename: If the filename is null, an error will occur.
-File Format: The utility only supports CSV format. If the file is not in CSV format, please restart the application with a valid input.
-Post Execution: After execution, press any key to close the screen.
+**Execution:** Run this file by supplying the path of the input file as the first argument.
+AppLicenseCalculator.exe "input file path"
+**No Argument:** If no argument is given, the console will prompt you to input the file path.
+**Null Filename:** If the filename is null, an error will occur.
+**File Format:** The utility only supports CSV format. If the file is not in CSV format, please restart the application with a valid input.
+**Post Execution:** After execution, press any key to close the screen.
 
 
 Special Considerations made in this project are:
