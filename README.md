@@ -8,7 +8,7 @@ You can execute this file by providing the path of the input file as the first a
 If no argument is provided, the console will prompt you to enter the file path.
 If the file name is null, an exception will be thrown.
 
-For example: AppLicenseCalculator.exe "C:\Users\akshatash\source\repos\AppCopyCalculator\AppCopyCalculator\Files\InputFiles\test2.csv"
+For example: AppLicenseCalculator.exe "<path of the input file>"
 
 
 Special Considerations made in this project are:
