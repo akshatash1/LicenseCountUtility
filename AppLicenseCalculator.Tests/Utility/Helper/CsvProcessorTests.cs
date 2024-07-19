@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Threading.Tasks;
-using AppLicenseCalculator.Models;
+﻿using AppLicenseCalculator.Models;
 using AppLicenseCalculator.Tests.Model;
 using AppLicenseCalculator.Utility.Helper;
 using CsvHelper;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Threading.Tasks;
 
-namespace AppLicenseCalculator.Tests.Services.Helper;
+namespace AppLicenseCalculator.Tests.Utility.Helper;
 
 [TestFixture]
 public class CsvProcessorTests

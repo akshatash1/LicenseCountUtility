@@ -1,14 +1,14 @@
 ﻿using AppLicenseCalculator.Models;
 using AppLicenseCalculator.Utility.Helper;
 using AppLicenseCalculator.Utility.Interface;
-using Moq;
 using Microsoft.Extensions.Logging;
+using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AppLicenseCalculator.Tests.Services.Helper
+namespace AppLicenseCalculator.Tests.Utility.Helper
 {
     public class LicenseCalculatorTests
     {
