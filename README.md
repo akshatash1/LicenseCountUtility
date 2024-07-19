@@ -12,15 +12,15 @@ AppLicenseCalculator.exe "input file path"
 5. **Post Execution:** After execution, press any key to close the screen.
 
 
-Special Considerations made in this project are:
---------------------------------------
+Particular considerations taken into account in this project include:
+-------------------------------------------------------------------------
 1. Input file is a valid csv file with header as ComputerID,UserID,ApplicationID,ComputerType,Comment.
 2. There should be no spaces before or after the values in the CSV file.
 3. The ComputerType will either have ‘Laptop’ or ‘Desktop’ as values (case-insensitive). Any other type will not be considered in the License count.
 4. If a user has installed applications only on laptops, then each laptop will contribute to the total number of required copies. 
 5. Utility has hardcoded value for application ID in Configuration file as 374.
 
-Logic Used:
+Implemented Logic:
 --------------------------
 1. If a user has installed apps only on a desktop, the count is incremented based on number of desktops.
 2. If a user has installed apps only on a laptop, the count is incremented based on number of laptops.
