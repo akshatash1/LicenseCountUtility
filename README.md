@@ -1,15 +1,55 @@
 # AppLicenseCalculator
 
-The project has been built using .NET 6.0.
+# .NET 6 Console Application
 
-To run the application, navigate to the Executable folder and locate the executable file named AppLicenseCalculator.exe.
+This repository contains a .NET 6 console application.
 
-1. **Execution:** Run this file by supplying the path of the input file as the first argument.
-AppLicenseCalculator.exe "input file path"
-2. **No Argument:** If no argument is given, the console will prompt you to input the file path.
-3. **Null Filename:** If the filename is null, an error will occur.
-4. **File Format:** The utility only supports CSV format. If the file is not in CSV format, please restart the application with a valid input.
-5. **Post Execution:** After execution, press any key to close the screen.
+## Prerequisites
+
+- .NET 6 SDK
+
+## Getting Started
+
+Follow these steps to get the project up and running:
+
+1. **Clone the Repository**: Clone this repository to your local machine. You can use the following command:
+    ```
+    git clone <repository-url>
+    ```
+    Replace `<repository-url>` with the URL of this repository.
+
+2. **Navigate to the Project Directory**: Use the command line to navigate into the root directory of the project.
+
+3. **Build the Project**: Run the following command in the terminal to build the project:
+    ```
+    dotnet build
+    ```
+    This command compiles the code and checks for any syntax errors.
+
+4. **Run the Application**: After a successful build, run the application with the following command:
+    ```
+    dotnet run
+    ```
+    This command runs the application in the console. Follow the prompts in the console to interact with the application.
+
+5. **Execution**: Run this file by supplying the path of the input file as the first argument.
+    ```
+    AppLicenseCalculator.exe "input file path"
+    ```
+6. **No Argument**: If no argument is given, the console will prompt you to input the file path.
+7. **Null Filename**: If the filename is null, an error will occur.
+8. **File Format**: The utility only supports CSV format. If the file is not in CSV format, please restart the application with a valid input.
+9. **Post Execution**: After execution, press any key to close the screen.
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines before getting started.
+
+## License
+
+This project is licensed under the terms of the MIT license. See the LICENSE file for details.
+
+
 
 
 Particular considerations taken into account in this project include:
